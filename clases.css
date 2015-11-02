@@ -1,0 +1,59 @@
+section:nth-child(2){
+	padding: 30px;
+	width: 100%;
+	margin-top: 30px;
+}
+section:nth-child(2)>p{
+	text-align: center;
+}
+.row{
+	width: 92%;
+	margin: 20px auto;
+}
+.row .col-4{
+	width: 29%;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding: 150px 5px;
+}
+.row .col-4 div{
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px 3px;
+	background: black;
+	opacity: 0.5;
+}
+.row .col-4 div p{
+	text-align: center;
+	margin: 10px;
+}
+.row .col-4 div p:first-child{
+	font-weight: bold;
+}
+.row .col-4 div p:nth-child(2){
+	font-size: 14px;
+}
+section:nth-child(2) .row:nth-child(2) .col-4:first-child{
+	background-image: url("img/dance_12.jpg");
+	background-size: cover;
+}
+section:nth-child(2) .row:nth-child(2) .col-4:nth-child(2){
+	background-image: url("img/breakdance.jpg");
+	background-size: cover;
+}
+section:nth-child(2) .row:nth-child(2) .col-4:nth-child(3){
+	background-image: url("img/lirical-jazz.jpg");
+	background-size: cover;
+}
+section:nth-child(2) .row:nth-child(3) .col-4:first-child{
+	background-image: url("img/arabe.jpg");
+	background-size: cover;
+}
+section:nth-child(2) .row:nth-child(3) .col-4:nth-child(2){
+	background-image: url("img/little.jpg");
+	background-size: cover;
+}
+section:nth-child(2) .row:nth-child(3) .col-4:nth-child(3){
+	background-image: url("img/yoga.jpg");
+	background-size: cover;
+}

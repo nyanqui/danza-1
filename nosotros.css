@@ -1,0 +1,73 @@
+section:nth-child(2){
+	background-image: url("img/dance_7.jpg");
+	height: 400px;
+	margin-top: 20px;
+}
+section:nth-child(2) div{
+	width: 35%;
+	margin: 0 auto;
+	background: black;
+	opacity: 0.5;
+	text-align: center;
+	position: relative;
+	top: 100px;
+	padding:40px;
+}
+section:nth-child(2) div p:first-child{
+	font-size: 20px;
+}
+section:nth-child(3){
+	background-image: url("img/cubes.png");
+}
+section:nth-child(3) .row{
+	width: 90%;
+	margin: 0 auto;
+	padding: 80px;
+	text-align: center;
+}
+section:nth-child(3) .row .col-4{
+	padding: 0 50px;
+}
+section:nth-child(3) .row .col-4 p{
+	font-size: 14px;
+}
+section:nth-child(3) .row .col-4 p:nth-child(1){
+	font-size: 20px;
+}
+section:nth-child(3) .row .col-4 div{
+	border: 1px solid grey;
+	margin: 15px;
+}
+section:nth-child(4)>p{
+	width: 16%;
+	margin: 80px auto;
+	font-size: 20px;
+}
+section:nth-child(4) .row{
+	width: 90%;
+	margin: 0 auto;
+}
+section:nth-child(4) .row img{
+	max-width: 250px;
+	max-height: 400px;
+	position: absolute;
+	clip: rect(0px, 400px, 200px, 0px);
+}
+section:nth-child(4) .row .col-3{
+	position: relative;
+}
+section:nth-child(4) .row p{
+	width: 25%;
+}
+section:nth-child(4) .row:nth-child(2){
+	margin-top: 200px;
+}
+section:nth-child(4)>div{
+	margin-bottom: 50px;
+}
+.danza{
+	font-size: 40px;
+	font-style: oblique;
+	padding: 20px;
+	text-align: center;
+}
